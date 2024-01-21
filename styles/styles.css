@@ -1,0 +1,88 @@
+/*Variables*/
+:root {
+    --orange: hsl(31, 77%, 52%);
+    --cyan: hsl(184, 100%, 22%);
+    --dcyan: hsl(179, 100%, 13%);
+    --white: #FFF;
+    --tWhite: hsla(0, 0%, 100%, 0.75);
+    --gray: hsl(0, 0%, 95%);
+    --bfont: 'Lexend', sans-serif;
+    --hfont: 'Big Shoulders Display', sans-serif;
+}
+
+/*General*/
+body{
+    font-family: var(--bfont);
+    font-size: 15px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 0;
+    line-height: 1.5;
+}
+
+h2 , h3 {
+    font-family: var(--hfont);
+    text-transform: uppercase;
+}
+
+header h2 {
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+
+/*Blog Cards*/
+
+.blog_cards {
+    display: flex;
+    margin: 0 auto;
+    max-width: 65%;
+}
+
+.card{
+    padding: 55px;
+    text-align: left;
+}
+
+.card h3 {
+    font-size: 40px;
+    color: var(--white);
+    font-weight: bold;
+    margin: 30px 0;
+}
+
+.card p {
+    color: var(--tWhite);
+
+}
+
+.sedans {
+    background-color: var(--orange);
+    border-radius: 10px 0 0 10px;
+}
+.suvs {
+    background-color: var(--cyan);
+}
+.luxury {
+    background-color: var(--dcyan);
+    border-radius: 0 10px 10px 0;
+}
+
+/*Footer*/
+footer  {
+    padding: 100px 0 20px;
+}
+footer a {
+    text-decoration: none;
+    color: var(--black);
+}
+footer a:hover{
+    color: blueviolet;
+    transition: ease-in-out 1s;
+}
+footer a::before {
+    content: "→ ";
+}
+footer a::after {
+    content: " ←";
+}
+
