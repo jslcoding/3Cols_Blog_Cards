@@ -21,8 +21,8 @@ Users should be able to:
 ### Screenshot
 
 ### Links
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/jslcoding/3Cols_Blog_Cards
+- Live Site URL: https://jslcoding.github.io/3Cols_Blog_Cards/
 
 ### Built with
 
@@ -32,6 +32,4 @@ Users should be able to:
 - Mobile-first workflow
 
 ## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- @jslcoding -> jessica sanmartin limes
